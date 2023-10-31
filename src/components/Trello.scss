@@ -1,0 +1,54 @@
+.trello{
+
+    padding: 100px;
+    background-color: rgba(205, 197, 197, 0.128);
+    color: black;
+    
+}
+
+.hd{
+    visibility: hidden;
+}
+
+p{
+    color: black;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+}
+.ttag{
+    flex: 3;
+    width: 300px;
+    padding: 0px 20px;
+}
+
+.tag{
+    padding: 20px;
+}
+.head,.con{
+
+    color: black;
+}
+
+input[type="radio"]:checked ~ label{
+    background-color: white;
+    border-left: 3px solid blue;
+}
+
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // height: 600px;
+    width: 100%;
+}
+.car{
+    height: 600px;
+    flex: 8;
+    min-height: 300px;
+    max-height: 600px;
+    width: 100%;
+    min-width: 300px;
+}

@@ -1,0 +1,46 @@
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-evenly;
+    
+}
+.footer{
+    background-color: rgba(211, 211, 211, 0.331);
+    padding: 100px 20px 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.lii{
+    font-size: large;
+    color: black;
+}
+.lt{
+    text-align: left;
+    color: black;
+    opacity: 0.5;
+    padding: 5px;
+}
+.lt:hover{
+    color:purple;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+i{
+    color: black;
+    font-size: 32px;
+    margin: 20px;
+}
